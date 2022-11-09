@@ -1,4 +1,13 @@
-.App {
+.body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(216, 54, 54);
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+ */
