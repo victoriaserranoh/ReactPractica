@@ -1,4 +1,13 @@
-import "./Header.css";
+
+
+
+
+
+
+
+/* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
+
+/* import "./Header.css";
 
 function Header() {
     return (
@@ -8,4 +17,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Header; */

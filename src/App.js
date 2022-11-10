@@ -1,7 +1,6 @@
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./views/home/HomePage"
-
-/* TERCER EJEMPLO: homepage */
 
 function App() {
   return(
@@ -11,6 +10,28 @@ function App() {
   );
 }
 export default App;
+
+
+
+
+/* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
+
+/* TERCER EJEMPLO: homepage 
+
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from "./views/home/HomePage"
+
+function App() {
+  return(
+    <div>
+      <HomePage/>
+    </div>
+  );
+}
+export default App;
+
+*/
 
 
 /* SEGUNDO EJEMPLO: le agregamos un h1 */
@@ -32,6 +53,7 @@ function App() {
   );
 }
 export default App; */
+
 
 /*  PRIMER EJEMPLO: estructura base
 

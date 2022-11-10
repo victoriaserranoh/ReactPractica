@@ -1,4 +1,11 @@
-import "./Footer.css";
+
+
+
+
+
+/* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
+
+/* import "./Footer.css";
 
 function Footer() {
     return(
@@ -8,4 +15,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer; */
