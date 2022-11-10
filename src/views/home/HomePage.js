@@ -1,21 +1,18 @@
 import "./HomePage.css";
-
-
-
-import {Button, Nav, Modal} from "react-bootstrap";
+import Header from "../../components/Header/Header";
+import Body from "../../components/Body/Body";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
-    return(
-    <div className="p-5 text-danger">
-        <Button variant="btn btn-outline-primary"> Hola mundo </Button>   
+  return (
+    <div className="homePage">
+        <Header/>
+        <Body/>
+        <Footer/>
     </div>
-    );
+  );
 }
 export default HomePage;
-
-
-
-
 
 /* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
 
@@ -58,7 +55,6 @@ function HomePage() {
 export default HomePage;
  */
 
-
 /* EJEMPLO 2
 import {Button, Nav, Modal} from "react-bootstrap";
 
@@ -71,7 +67,6 @@ function HomePage() {
 }
 export default HomePage;
 */
-
 
 /* EJEMPLO 1
 import Header from "../../components/Header/Header";

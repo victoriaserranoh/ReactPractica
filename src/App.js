@@ -13,7 +13,6 @@ export default App;
 
 
 
-
 /* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
 
 /* TERCER EJEMPLO: homepage 
