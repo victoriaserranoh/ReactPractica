@@ -1,3 +1,4 @@
+/* ---------------------------- EJEMPLOS DE CLASE 20/10 ------------------------- */
 import "./HomePage.css";
 import CardComponent from "../../componentes/card/CardComponent"
 
@@ -10,7 +11,26 @@ function HomePage() {
     </div>
   );
 }
-export default HomePage;
+export default HomePage; 
+
+/* ------------------------------ AXIOS ejemplo con funcion asyncrona 20/10 ------------------------
+import axios from "axios";
+
+function HomePage() {
+  const AxiosPeticion = async () => {
+    let response = await axios.get("https://jsonplaceholder.typicode.com/users");
+    console.log(response)
+  }
+  AxiosPeticion()
+
+
+  return (
+    <div>Hola mundo</div>
+  );
+}
+
+export default HomePage; */
+
 
 /* ------------------------------ EJEMPLOS DE CLASE 11/10 Y 13/10  ------------------------------- */
 

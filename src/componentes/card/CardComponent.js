@@ -5,6 +5,7 @@ import { Button, Card } from "react-bootstrap";
 Ej: titulo, descripcion. Y se los pasa entre llaves dentro de los parentesis de la funcion
 EJEMPLO de una forma: function CardComponent({image, title, description})
 EJEMPLO de otra forma: function CardComponent(props)... y despues ponemos en los de abajo {props.image} {props.title} etc*/
+
 function CardComponent(props) {
   return (
     <div>
@@ -20,3 +21,5 @@ function CardComponent(props) {
   );
 }
 export default CardComponent;
+
+
