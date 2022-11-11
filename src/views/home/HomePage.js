@@ -1,14 +1,12 @@
 import "./HomePage.css";
-import Header from "../../components/Header/Header";
-import Body from "../../components/Body/Body";
-import Footer from "../../components/Footer/Footer";
+import CardComponent from "../../componentes/card/CardComponent"
 
 function HomePage() {
   return (
-    <div className="homePage">
-        <Header/>
-        <Body/>
-        <Footer/>
+    <div className="body">
+      <CardComponent image={"https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"} title={"Hola 1"} description={"Hola soy una descripcion"}/>
+      <CardComponent image={"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"} title={"Hola 2"} description={"Hola soy una nula"}/>
+      <CardComponent image={"https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320"} title={"Hola 3"} description={"Hola soy una tortilla"}/>
     </div>
   );
 }
