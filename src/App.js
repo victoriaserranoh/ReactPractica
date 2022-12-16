@@ -1,3 +1,26 @@
+import {useState} from "react";
+import {AddCategory} from './components/AddCategory';
+
+function App() {
+  const [categories, setCategories] =useState([]);
+
+  const onAddCategory = () => {
+    console.log("dato recibido");
+  };
+
+  return(
+    <div className='App'>
+      <h1> React Gif</h1>
+      <AddCategory onAddCategory={onAddCategory} />
+    </div>
+  );
+}
+export default App;
+
+
+
+
+/* ----------- Ejemplo ultima clase 19i ------------
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,4 +34,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App; */
