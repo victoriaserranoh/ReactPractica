@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+/* import React, {useState} from "react";
 
 export const AddCategory = () => {
-    const [inputValue, setInputValue] = useState (""); /* Esta vacio porque se van guardando los datos que el usuario va escribiendo */
+    const [inputValue, setInputValue] = useState (""); Esta vacio porque se van guardando los datos que el usuario va escribiendo 
 
     const onInputChanged = (e) => {
         setInputValue();
@@ -19,4 +19,5 @@ export const AddCategory = () => {
             </form>
         </div>
     );
-};
+}; */
+

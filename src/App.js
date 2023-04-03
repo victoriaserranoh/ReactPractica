@@ -1,4 +1,4 @@
-import {useState} from "react";
+/* import {useState} from "react";
 import {AddCategory} from './components/AddCategory';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App; */
 
 
 
